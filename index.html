@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REF Académie - Orientation Universitaire</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header avec navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo"><span>REF</span>Académie</h1>
+                <p class="tagline">Votre boussole académique</p>
+            </div>
+            
+            <!-- Checkbox caché pour le menu mobile -->
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-checkbox">
+            
+            <!-- Navigation -->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li><a href="#apropos" class="nav-link">À propos</a></li>
+                    <li><a href="#universites" class="nav-link">Universités</a></li>
+                    <li><a href="#inscription" class="nav-link">Inscription</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Bouton hamburger -->
+            <label for="mobile-menu-toggle" class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Bienvenue sur REF Académie</h2>
+                <p class="hero-subtitle">Plateforme de Références Académiques</p>
+                <p class="hero-description">
+                    Votre boussole dans l'univers académique. À l'heure des choix décisifs, 
+                    REF Académie vous ouvre les portes d'un espace dédié à l'orientation, 
+                    à la réflexion et à la construction de votre avenir universitaire.
+                </p>
+                <div class="hero-cta">
+                    <a href="#universites" class="btn btn-primary">Découvrir les universités</a>
+                    <a href="#inscription" class="btn btn-secondary">S'inscrire maintenant</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notre Mission</h2>
+                <p class="section-subtitle">Accompagner votre réussite académique</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-circle">
+                            <span>🎓</span>
+                        </div>
+                    </div>
+                    <h3>Orientation Personnalisée</h3>
+                    <p>Conseils adaptés à votre profil et vos aspirations pour choisir la filière qui vous correspond.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-circle">
+                            <span>🏛️</span>
+                        </div>
+                    </div>
+                    <h3>Guide des Universités</h3>
+                    <p>Informations complètes sur toutes les universités du Congo et leurs programmes d'études.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-circle">
+                            <span>📝</span>
+                        </div>
+                    </div>
+                    <h3>Inscription Simplifiée</h3>
+                    <p>Processus d'inscription en ligne rapide et sécurisé pour toutes les universités partenaires.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Universités -->
+    <section id="universites" class="universities-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Universités Partenaires</h2>
+                <p class="section-subtitle">Découvrez les meilleures institutions du Congo</p>
+            </div>
+
+            <div class="universities-grid">
+                <!-- Université Marien Ngouabi -->
+                <div class="university-card">
+                    <div class="university-header">
+                        <div class="university-image">
+                            <img src="Fst.jpg" alt="Université Marien Ngouabi">
+                        </div>
+                        <div class="university-badge">Publique</div>
+                    </div>
+                    
+                    <div class="university-content">
+                        <h3 class="university-name">Université Marien Ngouabi</h3>
+                        <p class="university-location">📍 Brazzaville</p>
+                        
+                        <div class="university-info">
+                            <div class="info-item">
+                                <span class="info-label">Création :</span>
+                                <span class="info-value">1971</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Étudiants :</span>
+                                <span class="info-value">~20 000</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Langue :</span>
+                                <span class="info-value">Français</span>
+                            </div>
+                        </div>
+
+                        <div class="university-programs">
+                            <h4>Filières disponibles :</h4>
+                            <ul class="programs-list">
+                                <li>Droit et Sciences politiques</li>
+                                <li>Lettres et Sciences humaines</li>
+                                <li>Sciences économiques</li>
+                                <li>Médecine et Sciences de la santé</li>
+                                <li>Sciences et Techniques</li>
+                                <li>Grandes écoles (ISG, ENSP, ENAM)</li>
+                            </ul>
+                        </div>
+
+                        <div class="university-facilities">
+                            <h4>Services et installations :</h4>
+                            <div class="facilities-tags">
+                                <span class="facility-tag">Bibliothèque centrale</span>
+                                <span class="facility-tag">Salles multimédia</span>
+                                <span class="facility-tag">Campus urbains</span>
+                                <span class="facility-tag">Laboratoires</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Université Denis Sassou Nguesso -->
+                <div class="university-card">
+                    <div class="university-header">
+                        <div class="university-image">
+                            <img src="DSN.jpg" alt="Campus Université Denis Sassou Nguesso">
+                        </div>
+                        <div class="university-badge">Publique</div>
+                    </div>
+                    
+                    <div class="university-content">
+                        <h3 class="university-name">Université Denis Sassou Nguesso</h3>
+                        <p class="university-location">📍 Kintélé, Brazzaville</p>
+                        
+                        <div class="university-info">
+                            <div class="info-item">
+                                <span class="info-label">Création :</span>
+                                <span class="info-value">2021</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Capacité :</span>
+                                <span class="info-value">30 000</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Type :</span>
+                                <span class="info-value">Panafricaine</span>
+                            </div>
+                        </div>
+
+                        <div class="university-programs">
+                            <h4>Filières disponibles :</h4>
+                            <ul class="programs-list">
+                                <li>ISSGEA (Géographie, Environnement)</li>
+                                <li>ISAUBTP (Architecture, Urbanisme)</li>
+                                <li>Sciences appliquées</li>
+                                <li>Énergie et Mines</li>
+                                <li>NTIC et Informatique</li>
+                                <li>Sciences du Sport</li>
+                            </ul>
+                        </div>
+
+                        <div class="university-facilities">
+                            <h4>Services et installations :</h4>
+                            <div class="facilities-tags">
+                                <span class="facility-tag">Complexe sportif</span>
+                                <span class="facility-tag">Résidences étudiantes</span>
+                                <span class="facility-tag">Centre médical</span>
+                                <span class="facility-tag">Piscine olympique</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Inscription -->
+    <section id="inscription" class="registration-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Formulaire d'Inscription</h2>
+                <p class="section-subtitle">Commencez votre parcours universitaire dès maintenant</p>
+            </div>
+
+            <div class="registration-container">
+                <div class="registration-info">
+                    <h3>Pourquoi s'inscrire ?</h3>
+                    <ul class="benefits-list">
+                        <li>✅ Accès prioritaire aux informations</li>
+                        <li>✅ Conseils personnalisés</li>
+                        <li>✅ Suivi de votre dossier</li>
+                        <li>✅ Notifications importantes</li>
+                    </ul>
+                    
+                    <div class="contact-info">
+                        <h4>Besoin d'aide ?</h4>
+                        <p>📞 +242 06 838 9445</p> 
+                        <p>✉️ fresnelledegay@gmail.com</p>
+                    </div>
+                </div>
+
+                <form class="registration-form">
+                    <div class="form-group">
+                        <label for="nom">Nom complet *</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="prenom">Prénom *</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Adresse email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telephone">Numéro de téléphone *</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="universite">Université de choix *</label>
+                        <select id="universite" name="universite" required>
+                            <option value="">Sélectionnez une université</option>
+                            <option value="marien-ngouabi">Université Marien Ngouabi</option>
+                            <option value="denis-sassou">Université Denis Sassou Nguesso</option>
+                            <option value="autre">Autre université</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="filiere">Filière souhaitée *</label>
+                        <input type="text" id="filiere" name="filiere" placeholder="Ex: Informatique, Médecine, Droit..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="niveau">Niveau d'études</label>
+                        <select id="niveau" name="niveau">
+                            <option value="">Sélectionnez votre niveau</option>
+                            <option value="bac">Titulaire du BAC</option>
+                            <option value="licence">Licence</option>
+                            <option value="master">Master</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="demande">Message ou demande particulière</label>
+                        <textarea id="demande" name="demande" rows="4" placeholder="Décrivez vos objectifs, questions ou besoins spécifiques..."></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" required>
+                            
+                            J'accepte les conditions d'utilisation et la politique de confidentialité
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Envoyer ma demande
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>REF Académie</h3>
+                    <p>Votre partenaire pour une orientation universitaire réussie au Congo.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Liens utiles</h4>
+                    <ul class="footer-links">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#universites">Universités</a></li>
+                        <li><a href="#inscription">Inscription</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 Brazzaville, Congo</p>
+                    <p>📞 +242 068389445</p>
+                    <p>✉️ fresnelledegay@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 REF Académie - Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
