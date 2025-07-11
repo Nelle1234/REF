@@ -269,7 +269,7 @@ span {
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), 
-                url(université.jpg) no-repeat center center;
+                url("université.webp") no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
